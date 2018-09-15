@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="HTML5 Audio Spectrum Visualizer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Audio Visualizer Demo</title>
+        <link type="text/css" rel="stylesheet" href="style/style.css">
+    </head>   
+    <body>
+        <div id="wrapper">
+            <div id="fileWrapper" class="file_wrapper">
+                <div id="info">
+                    Audio Visualizer Demo
+                </div>
+                <label for="uploadedFile">Chọn file nhạc để chạy:</label>
+                <input type="file" id="uploadedFile"/>
+            </div>
+            <div id="visualizer_wrapper">
+                <canvas id='canvas' width="800" height="350"></canvas>
+            </div>
+        </div>
+        <footer>
+            <small>Visit my <a href="https://github.com/cuongnguyen998/Music_Visualizers"  target="_blank">GitHub</a></small>
+        </footer>
+        <script type="text/javascript" src="js/AudioVisualizer.js"></script>
+    </body>
+</html>
